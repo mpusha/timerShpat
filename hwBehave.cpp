@@ -6,6 +6,22 @@
 #include <QDir>
 //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-1
 //https://habr.com/ru/articles/252101/
+/* create a new repository on the command line
+
+echo "# timerShpat" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mpusha/timerShpat.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/mpusha/timerShpat.git
+git branch -M main
+git push -u origin main
+*/
 #include "hwBehave.h"
 
 /*!
